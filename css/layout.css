@@ -24,4 +24,36 @@
 
 /* Posititoning Classes */
 
+.row {
+  margin: 0 0 2% 0;
+  display: flex;
+}
 
+
+.doubleRow {
+  column-gap: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.tripleRow {
+  column-gap: 20px;
+  display: flex;
+}
+
+.col-1 {
+  width: 32%;
+}
+
+.col-2 {
+  width: 66%;
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%
+}
+
+.first {
+  margin-left: 0%;
+}
